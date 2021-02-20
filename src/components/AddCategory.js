@@ -19,7 +19,7 @@ const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={inputValue} onChange={handeInputChange} />
+      <input type="text" value={inputValue} onChange={handeInputChange} placeholder="Buscar Gifs..."/>
     </form>
   );
 };
