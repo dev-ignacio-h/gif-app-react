@@ -13,6 +13,7 @@ html {
 
 body {
   padding: 20px 80px;
+  background-color: #eee;
 }
 
 input {
@@ -71,3 +72,7 @@ hr {
 ol {
   padding-inline-start: 0;
 }
+
+.title {
+  color: #226;
+} 

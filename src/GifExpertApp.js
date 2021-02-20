@@ -3,7 +3,7 @@ import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['goku']);
+  const [categories, setCategories] = useState(['']);
 
   // const handleAdd = () => {
   //   // setCategories([...categories, 'test-add'])
@@ -11,7 +11,7 @@ const GifExpertApp = () => {
   // }
   return (
     <>
-      <h2>Gif App</h2>
+      <h2 className="title">Gif App</h2>
       <AddCategory setCategories={setCategories} />
       <hr />
       {/* <button onClick={handleAdd}>Agregar</button> */}
